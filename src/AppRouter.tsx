@@ -8,7 +8,7 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { AdminDashboardPage } from './pages/admin/AdminDashboardPage';
 import { RecipeFormPage } from './pages/admin/RecipeFormPage';
 
-function App() {
+function AppRouter() {
   return (
     <Routes>
       <Route path="/" element={<MainLayout />}>
@@ -28,4 +28,4 @@ function App() {
   );
 }
 
-export default App
+export default AppRouter

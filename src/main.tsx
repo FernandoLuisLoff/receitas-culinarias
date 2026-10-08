@@ -6,7 +6,7 @@ import { Notifications } from '@mantine/notifications'
 import '@mantine/core/styles.css'
 import '@mantine/notifications/styles.css'
 import './index.css'
-import App from './App.tsx'
+import AppRouter from './AppRouter.tsx'
 import { theme } from './theme'
 import { AuthProvider } from './context/AuthContext'
 import { FavoritesProvider } from './context/FavoritesContext'
@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')!).render(
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <AuthProvider>
           <FavoritesProvider>
-            <App />
+            <AppRouter />
           </FavoritesProvider>
         </AuthProvider>
       </BrowserRouter>
