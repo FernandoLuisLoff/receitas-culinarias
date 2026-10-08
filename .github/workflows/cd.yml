@@ -31,8 +31,10 @@ jobs:
       - name: Install dependencies (lockfile congelado)
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build da aplicação e fallback para SPA (404.html)
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
 
       - name: Upload do artefato do Pages
         uses: actions/upload-pages-artifact@v3
