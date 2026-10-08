@@ -1,8 +1,6 @@
 # 🍳 Receitas Culinárias
 
-> **Aplicação no ar:** `https://<seu-usuario-github>.github.io/receitas-culinarias/` _(atualize este link após o deploy manual no GitHub Pages)_
->
-> **Repositório:** `https://github.com/<seu-usuario-github>/receitas-culinarias` _(atualize após criar o repositório)_
+> **Aplicação no ar:** `https://fernandoluisloff.github.io/receitas-culinarias/`
 
 Projeto final da disciplina de desenvolvimento web (Pós Web), construído em **React + TypeScript** consumindo a API pública [DummyJSON](https://dummyjson.com), com o tema **Receitas culinárias** (`/recipes`).
 
